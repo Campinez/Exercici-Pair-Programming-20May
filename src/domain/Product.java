@@ -3,9 +3,9 @@ package domain;
 public class Product {
 	
 	
-	int id0;
-	int id=id0+1;
 	
+	private static int IdSiguiente;
+	private int id; 
 	String nameProduct;
 	float price;
 	int stock;
@@ -15,6 +15,8 @@ public class Product {
 		this.nameProduct=nameProduct;
 		this.price=price;
 		this.stock=stock;
+		++IdSiguiente;
+		id=IdSiguiente;
 		
 	}
 	
