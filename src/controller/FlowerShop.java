@@ -10,13 +10,13 @@ public class FlowerShop {
 		this.address=address;
 		}
 	
-	public void createTree (String nameProduct, float price, int stock, float heigh) {
+	public static void createTree (String nameProduct, float price, int stock, float heigh) {
 		
 	}
-	public void createFlower (String nameProduct, float price, int stock, String color) {
+	public static void createFlower (String nameProduct, float price, int stock, String color) {
 		
 	}
-	public void createDecoration(String nameProduct, float price, int stock, String material) {
+	public static void createDecoration(String nameProduct, float price, int stock, String material) {
 		
 	}
 }
